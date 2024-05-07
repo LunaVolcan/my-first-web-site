@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Hairline&family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Shade&family=Bungee+Spice&family=Chicle&family=Creepster&family=Jacquard+24&family=Knewave&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rye&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Hairline&family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Shade&family=Bungee+Spice&family=Chicle&family=Creepster&family=Jacquard+24&family=Knewave&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rye&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+  font-family: "Cabin", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F6F6F2;
+}
+img {
+  max-width: 100%;
+}
+h1,h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+header {
+  background-color: #adb5bd;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ }
+nav {
+   font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 1rem;
+}
+nav ul{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+ nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+p {
+ font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  text-align: center;
+}
+footer {
+  background-color: #adb5bd;
+  padding: 3rem;
+  text-align: center;
+}
